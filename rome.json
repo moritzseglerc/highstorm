@@ -4,12 +4,12 @@
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true,
+      "recommended": off,
       "correctness": {
         "noUnusedVariables": "warn"
       },
       "security": {
-        "noDangerouslySetInnerHtml": "off"
+        "noDangerouslySetInnerHtml": "on"
       },
       "style": {
         "useBlockStatements": "error"
@@ -19,7 +19,7 @@
   },
   "formatter": {
     "indentStyle": "space",
-    "indentSize": 2,
+    "indentSize": 3,
     "enabled": true,
     "lineWidth": 100,
     "ignore": ["node_modules", ".next", "dist"]
